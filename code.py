@@ -67,9 +67,6 @@ def main():
     lstm_results = train_lstm(X_train_lstm, y_train, X_test_lstm, y_test)
     xgb_results = train_xgboost(X_train, y_train, X_test, y_test)
 
-    print("\n===== RESULTS =====")
-    print("LSTM:", lstm_results)
-    print("XGBoost:", xgb_results)
 
 
 if __name__ == "__main__":
